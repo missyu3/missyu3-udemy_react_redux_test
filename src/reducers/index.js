@@ -1,4 +1,5 @@
 //アプリケーション内に存在する全てのreducersを結合する。
+//Reducerとはactionを受けてstateを変更するためのメソッド
 import { combineReducers } from 'redux'
 import count from './count'
 
