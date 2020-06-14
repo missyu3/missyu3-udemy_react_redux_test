@@ -15,7 +15,7 @@ class Counter extends Component {
   }
 
   handlePlusButton = () => {
-    //stateを変更する場合にはsetStateを使用する。
+    //stateを変更する場合にはsetStateを使用する。直接stateをいじっても、変更は反映されない。setStateはrenderが実行されるが、stateを直接いじってもrenderされない。
     this.setState({ count: this.state.count + 1})
   }
 
