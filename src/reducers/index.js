@@ -3,8 +3,6 @@
 import { combineReducers } from 'redux'
 import count from './count'
 
-
-
 export default combineReducers({ count })
 //複数実装したい場合は,で分ける
 //export default combineReducers({ count,foo,bar,baz })
